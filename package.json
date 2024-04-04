@@ -1,0 +1,19 @@
+{
+  "name": "mysticss",
+  "version": "1.0.0",
+  "description": "MystiCSS a RPG UI/Style framework",
+  "main": "mysticss.css",
+  "scripts": {
+    "mysticssLITE": "npm install -g mystiCSS -o mysticss.min.css",
+    "mysticss": "npm install -g mysticss",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "mysticss",
+    "new",
+    "framwork"
+  ],
+  "author": "Pi-zogis",
+  "license": "MIT"
+}

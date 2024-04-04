@@ -1,0 +1,60 @@
+/* Reset and basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    font-family: 'Kode Mono', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+/* Navigation styles */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ffdb4d;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
